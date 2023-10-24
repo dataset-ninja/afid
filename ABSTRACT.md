@@ -1,5 +1,10 @@
+The authors of the **AFID: A Public Fabric Image Database for Defect Detection** discuss the challenges in developing and comparing methods for detecting and classifying defects in the textile industry. They highlight the lack of a suitable public annotated benchmark, which makes it difficult for researchers to evaluate and compare various defect detection methods effectively. To address this issue, they aim to create a comprehensive collection of images with and without defects and make them publicly available for research and comparison purposes. The database consists of 245 images of 7 different fabrics. There are 140 defect-free images, 20 for each type of fabric. With different types of defects, there are 105 images. Images have a size of 4096×256 pixels.
 
-Sample image template:
-<img src="https://github.com/dataset-ninja/gland-segmentation/assets/78355358/f158d0dd-71d5-41a2-aba5-4a5f57d54c35" alt="image" width="800">
+<img src="https://github.com/supervisely/dataset-tools/assets/78355358/b59b5366-6106-47de-99ac-3984d5c91962" alt="image" width="800">
 
-<span style="font-size: smaller; font-style: italic;">Image description.</span>
+<span style="font-size: smaller; font-style: italic;">Region of Interest of 256 x 256 pixels from original examples 4096 x 256 of defective fabrics, with the names used in the database. (a) broken end, (b) broken yarn, (c) broken pick, (d) weft curling, (e) fuzzy ball, (f) cut selvage, (g) crease, (h) warp ball, (i) knot, (j) contamination, (k) nep, and (l) weft craft.</span>
+
+Defect detection in the textile industry is essential for reducing costs and improving customer satisfaction. Over the past two decades, numerous methods and algorithms for textile defect detection have been proposed. However, comparing the results of these methods is challenging due to variations in image properties, defect types, and image resolution across different studies.
+
+To support their research work, the authors have created a collection of samples with and without defects. This collection includes images obtained from a factory environment over a period of six months. The defects present in these images are described, and the authors note that they contain the most common types of defects found in factories, providing a valuable resource for the development and evaluation of defect detection methods.
+
