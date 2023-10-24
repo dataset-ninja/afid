@@ -15,7 +15,7 @@ from dataset_tools.templates import (
 ##################################
 PROJECT_NAME: str = "AFID"
 PROJECT_NAME_FULL: str = "AFID: A Public Fabric Image Database for Defect Detection"
-HIDE_DATASET = True  # set False when 100% sure about repo quality
+HIDE_DATASET = False  # set False when 100% sure about repo quality
 
 ##################################
 # * After uploading to instance ##
@@ -24,8 +24,8 @@ LICENSE: License = License.CC0_1_0()
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Textile(), Domain.SurfaceDefectDetection()]
 CATEGORY: Category = Category.Manufacturing()
 
-CV_TASKS: List[CVTask] = [CVTask.InstanceSegmentation()]
-ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.InstanceSegmentation(), AnnotationType.SemanticSegmentation(), AnnotationType.ObjectDetection()]
+CV_TASKS: List[CVTask] = [CVTask.InstanceSegmentation(), CVTask.SemanticSegmentation(), CVTask.ObjectDetection(), CVTask.Classification()]
+ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.InstanceSegmentation()]
 
 RELEASE_DATE: Optional[str] = None  # e.g. "YYYY-MM-DD"
 if RELEASE_DATE is None:
@@ -81,7 +81,7 @@ ORGANIZATION_NAME: Optional[Union[str, List[str]]] = [ "Universitat Politècnica
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = ["https://www.upv.es/", "https://www.aitex.es/?lang=en"]
 
 # Set '__PRETEXT__' or '__POSTTEXT__' as a key with string value to add custom text. e.g. SLYTAGSPLIT = {'__POSTTEXT__':'some text}
-SLYTAGSPLIT: Optional[Dict[str, Union[List[str], str]]] = None
+SLYTAGSPLIT: Optional[Dict[str, Union[List[str], str]]] = {"classification image sets": ['defect', 'no defect'], "__POSTTEXT__":"Additionally, ***fabric code*** information is provided"}
 TAGS: Optional[List[str]] = None
 
 

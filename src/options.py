@@ -1,6 +1,7 @@
+from typing import List
+
 from dataset_tools.templates import AnnotationType
 from src.settings import ANNOTATION_TYPES
-from typing import List
 
 ###############################################################################
 # ! Set up values if you want to change default values of visualizations
@@ -26,8 +27,8 @@ POSTER_TITLE: str = None
 
 ###############################################################
 #### * Set up visualization params for HorizontalGrid class ###
-HORIZONTAL_GRID_ROWS: int = None
-HORIZONTAL_GRID_COLS: int = None
+HORIZONTAL_GRID_ROWS: int = 6
+HORIZONTAL_GRID_COLS: int = 1
 HORIZONTAL_GRID_IS_DETECTION_TASK: bool = IS_DETECTION_TASK
 ###############################################################
 
@@ -69,8 +70,8 @@ CLASSES_PREVIEW_TAGS: List[str] = None
 ### * Set up visualization params for ClassesHeatmaps class ###
 # args for "to_image" method
 DRAW_STYLE: str = None  # "inside_white" or "outside_black"
-HEATMAP_ROWS: int = None
-HEATMAP_COLS: int = None
+HEATMAP_ROWS: int = 12
+HEATMAP_COLS: int = 1
 HEATMAP_GRID_SPACING: int = None
 HEATMAP_OUTER_GRID_SPACING: int = None
 HEATMAP_OUTPUT_WIDTH: int = (
