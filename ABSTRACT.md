@@ -2,7 +2,7 @@ The authors of the **AFID: A Public Fabric Image Database for Defect Detection**
 
 <img src="https://github.com/supervisely/dataset-tools/assets/78355358/b59b5366-6106-47de-99ac-3984d5c91962" alt="image" width="800">
 
-<span style="font-size: smaller; font-style: italic;">Region of Interest of 256 x 256 pixels from original examples 4096 x 256 of defective fabrics, with the names used in the database. (a) broken end, (b) broken yarn, (c) broken pick, (d) weft curling, (e) fuzzy ball, (f) cut selvage, (g) crease, (h) warp ball, (i) knot, (j) contamination, (k) nep, and (l) weft craft.</span>
+<span style="font-size: smaller; font-style: italic;">Region of Interest of 256 x 256 pixels from original examples 4096 x 256 of defective fabrics, with the names used in the database. (a) broken end, (b) broken yarn, \(c\) broken pick, (d) weft curling, (e) fuzzy ball, (f) cut selvage, (g) crease, (h) warp ball, (i) knot, (j) contamination, (k) nep, and (l) weft craft.</span>
 
 Defect detection in the textile industry is essential for reducing costs and improving customer satisfaction. Over the past two decades, numerous methods and algorithms for textile defect detection have been proposed. However, comparing the results of these methods is challenging due to variations in image properties, defect types, and image resolution across different studies.
 
