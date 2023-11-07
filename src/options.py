@@ -70,8 +70,8 @@ CLASSES_PREVIEW_TAGS: List[str] = None
 ### * Set up visualization params for ClassesHeatmaps class ###
 # args for "to_image" method
 DRAW_STYLE: str = None  # "inside_white" or "outside_black"
-HEATMAP_ROWS: int = 12
-HEATMAP_COLS: int = 1
+HEATMAP_ROWS: int = 6
+HEATMAP_COLS: int = 2
 HEATMAP_GRID_SPACING: int = None
 HEATMAP_OUTER_GRID_SPACING: int = None
 HEATMAP_OUTPUT_WIDTH: int = (
