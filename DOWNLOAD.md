@@ -1,6 +1,6 @@
 Dataset **AFID** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://www.dropbox.com/scl/fi/rvwop9w8liyask0xfy6g6/afid-DatasetNinja.tar?rlkey=c25dv5fyz3dsse6i0v3oxry3c&dl=1)
+ [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogImZzOi8vYXNzZXRzLzI4NDhfQUZJRC9hZmlkLURhdGFzZXROaW5qYS50YXIiLCAic2lnIjogInJnQjIwS0VVZElJS3VmZTdIK1A3RDlGU3Y1S2NPVlJScmdSUHV1SEtaNXM9In0=)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
